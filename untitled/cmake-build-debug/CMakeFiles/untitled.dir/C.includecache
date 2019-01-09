@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tang/desktop/untitled/main.c
+stdio.h
+-
+unistd.h
+-
+threadpool.cpp
+/home/tang/desktop/untitled/threadpool.cpp
+
+/home/tang/desktop/untitled/threadpool.cpp
+stdio.h
+-
+threadpool.h
+/home/tang/desktop/untitled/threadpool.h
+
+/home/tang/desktop/untitled/threadpool.h
+stdlib.h
+-
+unistd.h
+-
+pthread.h
+-
+stdint.h
+-
+
